@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.glasswidgets.feature.appcontainer.ui.AppContainerConfigActivity"
+    android:initialLayout="@layout/widget_calendar_month"
+    android:minWidth="280dp"
+    android:minHeight="280dp"
+    android:targetCellWidth="4"
+    android:targetCellHeight="4"
+    android:previewImage="@drawable/ic_launcher_background"
+    android:updatePeriodMillis="0"
+    android:widgetFeatures="reconfigurable"
+    android:widgetCategory="home_screen" />

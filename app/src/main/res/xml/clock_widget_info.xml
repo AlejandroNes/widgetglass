@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.glasswidgets.feature.appcontainer.ui.AppContainerConfigActivity"
+    android:initialLayout="@layout/widget_clock"
+    android:minWidth="140dp"
+    android:minHeight="70dp"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:previewImage="@drawable/ic_launcher_background"
+    android:updatePeriodMillis="0"
+    android:widgetFeatures="reconfigurable"
+    android:widgetCategory="home_screen" />
